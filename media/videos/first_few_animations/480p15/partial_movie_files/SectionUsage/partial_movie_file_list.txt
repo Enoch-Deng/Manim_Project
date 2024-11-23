@@ -1,0 +1,7 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/enochdeng/Desktop/enochR/WANNACODE/Manim_Project/media/videos/first_few_animations/480p15/partial_movie_files/SectionUsage/1185818338_661115485_223132457.mp4'
+file 'file:/Users/enochdeng/Desktop/enochR/WANNACODE/Manim_Project/media/videos/first_few_animations/480p15/partial_movie_files/SectionUsage/624642324_2248394913_3608672878.mp4'
+file 'file:/Users/enochdeng/Desktop/enochR/WANNACODE/Manim_Project/media/videos/first_few_animations/480p15/partial_movie_files/SectionUsage/624642324_461663074_1402325183.mp4'
+file 'file:/Users/enochdeng/Desktop/enochR/WANNACODE/Manim_Project/media/videos/first_few_animations/480p15/partial_movie_files/SectionUsage/624642324_982569630_1620230086.mp4'
+file 'file:/Users/enochdeng/Desktop/enochR/WANNACODE/Manim_Project/media/videos/first_few_animations/480p15/partial_movie_files/SectionUsage/624642324_1636476062_1620230086.mp4'
+file 'file:/Users/enochdeng/Desktop/enochR/WANNACODE/Manim_Project/media/videos/first_few_animations/480p15/partial_movie_files/SectionUsage/624642324_1248055333_1789165698.mp4'
