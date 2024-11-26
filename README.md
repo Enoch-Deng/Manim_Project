@@ -7,6 +7,7 @@ In commind line: _manim -pql first_few_animations.py SquareToCircle_
 This command tells manim exactly which Scene is to be rendered, 
 in this case, it is SquareToCircle.  
 
+
 This is necessary because a single scene file may contain more than one scene.  
 
 Next, the flag -p tells manim to play the scene once it’s rendered, 
@@ -41,5 +42,3 @@ object (or mobject for short), the animation, and the scene.
 
 Animations are procedures that interpolate between two mobjects. Any 
 property of a mobject that can be changed can be animated.   
-
-
