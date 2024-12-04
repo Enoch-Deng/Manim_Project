@@ -107,3 +107,4 @@ class SectionUsage(Scene):
         self.next_section(name="Final Positioning", skip_animations=False)
         self.play(square.animate.rotate(PI / 2))
         self.play(circle.animate.set_fill(WHITE), square.animate.set_fill(GREEN))
+
