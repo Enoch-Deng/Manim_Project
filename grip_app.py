@@ -1,6 +1,7 @@
 import tkinter as tk
 from unittest import result
 
+
 class SquareGridApp:
     def __init__(self, master, rows=20, cols=20):
         # Store the reference to the parent window and the dimensions of the grid
@@ -73,22 +74,53 @@ class SquareGridApp:
         
         result = '\n'.join(lines)
         # Print the entire grid, each row on a new line.
-        print(result)
         return result 
 
-if __name__ == "__main__":
-    # This block only runs if this script is executed directly (not imported).
-
+def run_app(rows=20, cols=20):
     # Create the main application window.
     root = tk.Tk()
-    # Set the window title.
     root.title("Clickable Grid")
-
-    # Create an instance of SquareGridApp, passing in the 'root' window.
-    app = SquareGridApp(root)
-
-    # Start the Tkinter event loop, so the window stays open and responds to user actions.
+    app = SquareGridApp(root, rows, cols)
+    # Start the Tkinter event loop
     root.mainloop()
-    grid_string = app.generate_string()
-    print('Here is the grid string:')
+    # After the window closes (mainloop ends), generate and return the string
+    return app.generate_string()
+
+def default_string():
+    text = '''---------------------------------------------
+---------------------------------------------
+---------------------------------------------
+---------------------------------------------
+---------------------------------------------
+---------------------------------------------
+---------------------------------------------
+---------------------------------------------
+---------------------------------------------
+-----------------------------#---------------
+---------------------------#-#---------------
+-----------------##------##------------##----
+----------------#---#----##------------##----
+-----##--------#-----#---##------------------
+-----##--------#---#-##----#-#---------------
+---------------#-----#-------#---------------
+----------------#---#------------------------
+-----------------##--------------------------
+---------------------------------------------
+---------------------------------------------
+---------------------------------------------
+---------------------------------------------
+---------------------------------------------
+---------------------------------------------
+---------------------------------------------
+---------------------------------------------
+---------------------------------------------
+---------------------------------------------
+---------------------------------------------
+---------------------------------------------'''
+    return text
+
+if __name__ == "__main__":
+    # If run directly, just run the app and print the result.
+    grid_string = run_app(20, 30)
+    print("Here is the grid string:")
     print(grid_string)
